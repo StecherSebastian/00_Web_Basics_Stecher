@@ -1,0 +1,12 @@
+div {
+    background-color: cadetblue;
+    border-style: solid;
+}
+
+.header {
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
