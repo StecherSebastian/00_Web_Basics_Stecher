@@ -145,6 +145,32 @@ table {
 
 	margin-top: 40px;
 	margin-left: 40px;
+
+	position: relative;
+}
+
+.boxTopLeftCorner {
+	background-color: black;
+
+	height: 50px;
+	width: 50px;
+
+	position: absolute;
+
+	top: -20px;
+	left: -20px;
+}
+
+.boxDownRightCorner {
+	background-color: olivedrab;
+
+	height: 40px;
+	width: 40px;
+
+	position: absolute;
+
+	bottom: 0;
+	right: 0;
 }
 
 /*Navigation Bar*/
