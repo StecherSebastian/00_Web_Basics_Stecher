@@ -138,6 +138,9 @@ table {
 /*Container with the two boxes*/
 
 .container{
+	border: solid;
+	border-width: 1px;
+
 	background-color: aqua;
 
 	height: 400px;
@@ -162,6 +165,9 @@ table {
 }
 
 .boxDownRightCorner {
+	border: solid;
+	border-width: 1px;
+
 	background-color: olivedrab;
 
 	height: 40px;
@@ -174,3 +180,31 @@ table {
 }
 
 /*Navigation Bar*/
+
+.navigationbar {
+	border: solid;
+	border-width: 1px;
+
+	height: 50px;
+	width: 90%;
+
+	margin: 5%;
+	margin-top: 10%;
+
+	display: flex;
+
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigationbar-menu {
+	border: solid;
+	border-width: 1px;
+
+	background-color: olivedrab;
+
+	height: 20px;
+	width: 40px;
+
+	margin: 10px;
+}
