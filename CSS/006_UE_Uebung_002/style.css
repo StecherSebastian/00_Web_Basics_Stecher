@@ -136,3 +136,15 @@ table {
 
 /*My CSS*/
 /*Container with the two boxes*/
+
+.container{
+	background-color: aqua;
+
+	height: 400px;
+	width: 200px;
+
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+/*Navigation Bar*/
