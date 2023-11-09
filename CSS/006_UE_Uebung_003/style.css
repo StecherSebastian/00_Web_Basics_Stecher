@@ -138,31 +138,45 @@ table {
 /*Wrapper containing three boxes*/
 
 .wrapper {
-
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-bottom: 250px;
 }
 
-.wrapper-boxUpperLeftCorner {
+.wrapper-container {
+    display: flex;
+}
+
+.wrapper-container-boxUpperLeftCorner {
     background-color: green;
     height: 300px;
     width: 200px;
 }
 
-.wrapper-boxUpperRightCorner {
+.wrapper-container-boxUpperRightCorner {
     background-color: aqua;
     height: 300px;
     width: 200px;
+
+    position: relative;
 }
 
-.wrapper-boxUpperRightCorner-boxUpperRightCorner {
+.wrapper-container-boxUpperRightCorner-boxUpperRightCorner {
     background-color: black;
     height: 60px;
     width: 60px;
+
+    position: absolute;
+
+    top: 0;
+    right: 0;
 }
 
 .wrapper-boxDownLeftToRight {
     background-color: orange;
     height: 100px;
     width: 400px;
+
 }
 
 /*Wrapper in the bottom left corner containing a box in the center*/
@@ -172,10 +186,17 @@ table {
     width: 250px;
 
     display: flex;
+
+    align-self: baseline;
+
+    justify-content: center;
+    align-items: center;
 }
 
-.wrapperDownLeftCorner-boxCenter {
+.wrapperDownLeftCorner-boxCenter {  
     background-color: darkorange;
     height: 110px;
     width: 110px;
+
+    position: absolute;
 }
