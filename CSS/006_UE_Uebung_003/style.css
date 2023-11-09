@@ -133,3 +133,49 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*My CSS*/
+/*Wrapper containing three boxes*/
+
+.wrapper {
+
+}
+
+.wrapper-boxUpperLeftCorner {
+    background-color: green;
+    height: 300px;
+    width: 200px;
+}
+
+.wrapper-boxUpperRightCorner {
+    background-color: aqua;
+    height: 300px;
+    width: 200px;
+}
+
+.wrapper-boxUpperRightCorner-boxUpperRightCorner {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.wrapper-boxDownLeftToRight {
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+}
+
+/*Wrapper in the bottom left corner containing a box in the center*/
+.wrapperDownLeftCorner {
+    background-color: gray;
+    height: 250px;
+    width: 250px;
+
+    display: flex;
+}
+
+.wrapperDownLeftCorner-boxCenter {
+    background-color: darkorange;
+    height: 110px;
+    width: 110px;
+}
