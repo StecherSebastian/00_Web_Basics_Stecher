@@ -135,3 +135,23 @@ table {
 }
 
 /*My CSS*/
+.box {
+    background-color: red;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1px;
+}
+
+.item1 {
+    grid-row: span 3;
+}
+
+.item2 {
+    grid-column: span 2;
+}
