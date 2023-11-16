@@ -135,3 +135,39 @@ table {
 }
 
 /*My CSS*/
+
+/*Wrapper that contains the two containers*/
+
+.wrapper {
+	margin: 100px;
+
+	display: flex;
+	gap: 30px;
+}
+
+/*Container 1 which contains 6 boxes*/
+
+.wrapper-container1 {
+	display: grid;
+
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px;
+	gap: 40px;
+}
+
+
+/*Container 2 which contains 3 boxes*/
+
+.wrapper-container2 {
+	display: grid;
+
+	grid-template-columns: 200px 200px;
+	grid-template-rows: 200px 200px;
+
+	gap: 50px;
+}
+
+/*Box*/
+.box {
+	background-color: green;
+}
