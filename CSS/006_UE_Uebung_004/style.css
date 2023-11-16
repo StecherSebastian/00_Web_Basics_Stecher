@@ -141,6 +141,7 @@ table {
 .navigationbar {
     background-color: cyan;
     height: 200px;
+    padding: 10px;
 
     display: flex;
     justify-content: space-between;
@@ -148,28 +149,34 @@ table {
 
 }
 
-.navigationbar-wrapper {
+.wrapper {
     display: flex;
+    gap: 5px;
 }
 
-.navigationbar-box {
+.box {
     background-color: black;
     width: 30px;
     height: 30px;
-    margin: 5px;
 }
 
 /*Box*/
 
-.box {
+.sidebar {
     background-color: greenyellow;
+    font-size: 50px;
+
     height: 300px;
     width: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Box in the down right corner*/
 
-.boxDownRightCorner {
+.impressum {
     background-color: purple;
     height: 150px;
     width: 150px;
