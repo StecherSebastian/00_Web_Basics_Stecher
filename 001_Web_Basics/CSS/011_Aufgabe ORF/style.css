@@ -1,0 +1,44 @@
+/*Body*/
+body {
+    background-color: gainsboro;
+    color: white;
+
+    margin-left: 8rem;
+    margin-right: 31.9rem;
+
+}
+
+/*Header*/
+/*Navigationbar Nr.1*/
+.navigationbar1 {
+    background-color: #9E0B0F;
+
+    height: 27px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/*Logo*/
+.logo {
+    background-color: #BB131A;
+    border-bottom: 11px solid #D32824;
+
+    display: flex;
+}
+
+/*Navigationbar Nr.2*/
+.navigationbar2 {
+    background-color: #630d0c;
+    border-top: 3px solid #E94E38;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Main*/
+
+
+/*Footer*/
