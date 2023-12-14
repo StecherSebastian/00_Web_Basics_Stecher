@@ -20,10 +20,16 @@ let applePerKilo = 1 / appleWeight;
 console.log(bananaPerKilo + " Bananen pro Kilo");
 console.log(applePerKilo + " Äpfel pro Kilo");
 
+let applePrice = applePricePerKilo / applePerKilo;
+let bananaPrice = bananaPricePerKilo / bananaPerKilo;
+
+console.log(applePrice + " Preis pro Apfel");
+console.log(bananaPrice + " Preis pro Banane");
+
 // Preis von 8 Äpfeln
-console.log("8 Äpfel kosten " + 8 / applePerKilo * applePricePerKilo + " €");
+console.log("8 Äpfel kosten " + 8 * applePrice + " €");
 // Preis von 17 Bananen
-console.log("17 Bananen kosten " + 17 / bananaPerKilo * bananaPricePerKilo + " €");
+console.log("17 Bananen kosten " + 17 * bananaPrice + " €");
 // Preis von 1 Tonne Äpfel
 console.log(applePricePerKilo * 1000 + " € per Tonne Äpfel");
 // Preis von 1 Tonne Bananen
