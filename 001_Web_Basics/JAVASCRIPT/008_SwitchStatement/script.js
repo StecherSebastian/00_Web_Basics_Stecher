@@ -7,6 +7,8 @@ let randomNumberFloat = Math.floor(randomNumber);
 // Wenn der Wert 8 ist gib aus Eight
 // etc.
 
+console.log(randomNumberFloat);
+
 switch (randomNumberFloat) {
     case 10:
         console.log("Ten");
