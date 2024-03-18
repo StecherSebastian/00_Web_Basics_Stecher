@@ -62,7 +62,7 @@ let friends = ["Susi", "Paula", "Hans"];
 //Gib folgenden Satz aus:
 //"Meine Freunde sind Susi, Paula und Hans
 
-console.log("Meine Freunde sind " + friends.slice(0,-1).join(", ")+ " und "+ friends.slice(-1) + ".");
+console.log("Meine Freunde sind " + friends.slice(0, -1).join(", ") + " und " + friends.slice(-1) + ".");
 
 
 //Füge "Sepp" dazu. Nun soll die ausgabe folgendermaßen lauten:
@@ -71,4 +71,7 @@ friends.push("Sepp");
 
 //"Meine Freunde sind Susi, Paula, Hans und Sepp"
 
-console.log("Meine Freunde sind " + friends.slice(0,-1).join(", ")+ " und "+ friends.slice(-1) + ".");
+console.log("Meine Freunde sind " + friends.slice(0, -1).join(", ") + " und " + friends.slice(-1) + ".");
+
+
+console.log("=====================================================");
