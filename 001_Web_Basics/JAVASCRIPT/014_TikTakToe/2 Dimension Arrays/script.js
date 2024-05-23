@@ -25,3 +25,5 @@ let field3d = [
         [1, 2, 3]
     ]
 ]
+
+console.log(field3d[2][1][0]);
